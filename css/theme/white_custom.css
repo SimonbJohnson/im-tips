@@ -321,6 +321,14 @@ body {
     background-color: #009688;
 }
 
+.green {
+    background-color: #4CAF50;
+}
+
+.orange {
+    background-color: #FF9800;
+}
+
 .title_container {
     margin-top:75px !important;
 }
