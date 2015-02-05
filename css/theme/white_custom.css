@@ -322,11 +322,23 @@ body {
 }
 
 .green {
-    background-color: #4CAF50;
+    background-color: #00E676;
 }
 
 .orange {
     background-color: #FF9800;
+}
+
+.blue {
+    background-color: #03A9F4;
+}
+
+.pink {
+    background-color:#E91E63;
+}
+
+.yellow {
+    background-color: #FFD600;
 }
 
 .title_container {
