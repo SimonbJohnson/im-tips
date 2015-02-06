@@ -317,12 +317,16 @@ body {
     fill: #673AB7;
 }
 
+.tealfill{
+    fill: #009688;
+}
+
 .teal {
     background-color: #009688;
 }
 
 .green {
-    background-color: #00E676;
+    background-color: #4CAF50;
 }
 
 .orange {
@@ -333,12 +337,20 @@ body {
     background-color: #03A9F4;
 }
 
+.bluefill{
+    fill: #03A9F4;
+}
+
 .pink {
     background-color:#E91E63;
 }
 
 .yellow {
     background-color: #FFD600;
+}
+
+.red{
+    background-color:#F44336;
 }
 
 .title_container {
