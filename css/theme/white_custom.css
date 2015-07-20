@@ -361,3 +361,12 @@ body {
     font-size:0.5em !important;
     color:#999999;
 }
+
+.text-bottom{
+    font-size:0.8em !important;
+    color:#555 !important;
+    width:80%;
+    margin-left:10% !important;
+    position:absolute !important;
+    top:620px !important;
+}
