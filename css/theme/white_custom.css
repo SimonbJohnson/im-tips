@@ -285,6 +285,11 @@ body {
     font-weight:bold !important;
 }
 
+.contents_link {
+    font-size:1em  !important;
+    font-weight:bold !important;
+}
+
 .text-small {
     font-size:0.8em !important;
     color:#555 !important;
@@ -345,6 +350,10 @@ body {
     background-color:#E91E63;
 }
 
+.pinkfill {
+    fill:#E91E63;
+}
+
 .yellow {
     background-color: #FFD600;
 }
@@ -368,5 +377,9 @@ body {
     width:80%;
     margin-left:10% !important;
     position:absolute !important;
-    top:620px !important;
+    top:660px !important;
+}
+
+img {
+  border-width:0px!important;
 }
