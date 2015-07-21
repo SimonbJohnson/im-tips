@@ -555,6 +555,7 @@
                         are used it can be hard to compare and join datasets without
                         these codes.  Many hours of time can be saved by using them.                                       
                     </p>
+                    <img class="stretch" src="pics/pcodes.png" alt="place codes example" /> 
                 </section>
                 <section id="data_managing_relationships">
                     <div class="header_bar pink">
@@ -566,21 +567,38 @@
                         as an administration code only belongs to one place this 
                         can also be checked with pivot tables.  By dropping both fields 
                         into the row columns it shows all the matches between the two 
-                        data sets.
+                        data columns.  Here we can see 524 02 05 25 has been used twice by accident.
                     </p>
-                </section>                
-                <section id="data_managing_coordinates">
-                    <div class="header_bar pink">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Get coordinates for point data</h4>
-                    <p class="text-small">If you have data that represents a 
-                        point such as a hospital or a household instead 
-                        of just naming it or giving its address you could 
-                        also collect coordinates for it.  There are many 
-                        possible ways of doing.
-                    </p>
+                    <img class="stretch" src="pics/relationships.png" alt="Checking relationships example" /> 
                 </section>
+                <section>                
+                    <section id="data_managing_coordinates">
+                        <div class="header_bar pink">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Get coordinates for point data</h4>
+                        <p class="text-small">If you have data that represents a 
+                            point such as a hospital or a household instead 
+                            of just naming it or giving its address you could 
+                            also collect coordinates for it.  There are many 
+                            possible ways of doing.
+                        </p>
+                        <img class="stretch" src="pics/coordinates.png" alt="Coordinates Map" />
+                        <p class="text-bottom">Press down for more</p> 
+                    </section>
+                    <section id="data_managing_coordinates_more">
+                        <div class="header_bar pink">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">
+                            A <a href="https://en.wikipedia.org/wiki/GPS_navigation_device">GPS device</a> can be used to get coordinates points. Most smartphones now contain the technology to do this.  Mobile data collection applications can also help with the process.
+                        </p>
+                        <img class="stretch" src="pics/gps.jpeg" alt="smartphone gps" /> 
+                        <p class="text-small">
+                            Addresses can be <a href="https://en.wikipedia.org/wiki/Geocoding">geocoded</a> to get coordinates.  However is many developing countries the addresses are not well documented or non-existant.  It's better to put the coordinate data in at the point of data collection.
+                        </p>                        
+                    </section>                    
+                </section>    
                 <section>
                     <section id="data_managing_hxl">
                         <div class="header_bar pink">
@@ -620,7 +638,7 @@
                         <div class="header_title">##</div>
                     </div>
                     <h4>Remove Visual Noise</h4>
-                    <p class="text-small">By removing unnecessary visual elements it allows for easier intepretation of the data</p>
+                    <p class="text-small">By removing unnecessary visual elements it allows for easier intepretation of the data.</p>
                     <img class="stretch" src="pics/visual_noise.gif" alt="Visual Noise reduction" />
                 </section>
                 <section id="visualising_alignment">
@@ -629,7 +647,9 @@
                     </div>
                     <h4>Alignment</h4>
                     <p class="text-small">
+                        Misaligning elements can make a product look distracting and hard for the user to follow.  By aligning elements to a grid system you make the product more appealing and easier to comprehend.
                     </p>
+                    <img class="stretch" src="pics/grid.jpg" alt="Grid alignment" />
                 </section>
                 <section>               
                     <section id="visualising_icons">
@@ -649,7 +669,8 @@
                             <div class="header_title">##</div>
                         </div>
                         <p class="text-small">
-                            http://reliefweb.int/report/world/world-humanitarian-and-country-icons-2012                           
+                            <a href="http://reliefweb.int/report/world/world-humanitarian-and-country-icons-2012">An article about humanitarian icons</a>
+                                                       
                         </p> 
                     </section>                                        
                 </section>
@@ -658,40 +679,86 @@
                         <div class="header_title">##</div>
                     </div>
                     <h4>Be aware of colour connotations</h4>
-                    <p class="text-small">                        
-                    </p>
+                    <p class="text-small">Colours have different meaning attached to them. If you colour areas on a map red, some people will assume that it may indicate an area of danger, when this may have not been your intent.  It is worth being aware that different colours may have different meanings in various cultures.</p>
+                    <img class="stretch" src="pics/colour_wheel.gif" alt="Colour wheel" />
                 </section>
-                <section id="visualising_colorcon">
-                    <div class="header_bar yellow">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Choose readable colour schemes</h4>
-                    <p class="text-small">                        
-                    </p>
-                </section>                                
-                <section id="visualising_maps">
-                    <div class="header_bar yellow">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Make Maps</h4>
-                    <p class="text-small">                        
-                    </p>
+                <section>
+                    <section id="visualising_color_scheme">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Choose readable colour schemes</h4>
+                        <p class="text-small">
+                            Be careful when choosing colours, especially on maps, to make sure everyone can read them.  Your product may be printed in black and white or read by someone with colour blindness.  By choosing a simple colour scale and varying lightness can solve this problem.                      
+                        </p>
+                        <img class="stretch" src="pics/bad_colours.jpg" alt="Bad Colours" />
+                        <p class="image-text">An example of a difficult to read colour scheme</p>
+                        <p class="text-bottom">Press down for more</p> 
+                    </section>
+                    <section id="visualising_color_scheme_more">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">
+                            There are good tools out there for helping to pick a good colour scheme.                      
+                        </p>
+                        <p class="text-small">
+                            <a href="http://colorbrewer2.org/">Color Brewer</a> is a particular good tool which has options for selecting schemes that work on black and white printers and for people with colour blindness
+                        </p>                        
+                    </section>                                        
                 </section>
+                <section>                                
+                    <section id="visualising_maps">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Make Maps</h4>
+                        <p class="text-small">
+                            If your data has a geographical element it may be better to represent it as a map rather than a data table.  There are a few free and paid software and services that can do this.                       
+                        </p>
+                        <img class="stretch" src="pics/map.jpg" alt="Map" />
+                        <p class="text-bottom">Press down for more</p>                         
+                    </section>
+                    <section id="visualising_maps_more">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Make Maps</h4>
+                        <p class="text-small">
+                            <a href="http://www.qgis.org/en/site/">QGIS</a> is open source software used for creating maps.                       
+                        </p>
+                        <p class="text-small">
+                            <a href="http://www.qgistutorials.com/en/">QGIS tutorials</a> is a website that contains a lot of learning material for making maps with QGIS.
+                        </p>                        
+                    </section>
+                </section>                    
                 <section id="visualising_dashboards">
                     <div class="header_bar yellow">
                         <div class="header_title">##</div>
                     </div>
-                    <h4>Make Dashboards</h4>
-                    <p class="text-small">                        
+                    <h4>Make Infographics and Dashboards</h4>
+                    <p class="text-small">
+                        Your pivot table report may tell everything a manager or the public needs to know, however engagement of it will be low.  By making infographics and dashboards it will help to get the key figures read.                    
                     </p>
+                    <img class="stretch" src="pics/infographic.png" alt="Infographic" />
                 </section>
-                <section id="visualising_webmaps">
-                    <div class="header_bar yellow">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Make Web Maps</h4>
-                    <p class="text-small">                        
-                    </p>
+                <section>
+                    <section id="visualising_webmaps">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Make Web Maps</h4>
+                        <p class="text-small">Web maps can allow the user to interact with the map by zooming, panning, clicking and turning on and off layers.  This extra control means more data can be given to the user and they can customise what they are seeing for their own analysis.                       
+                        </p>
+                        <img class="stretch" src="pics/webmap.png" alt="Web map" />
+                    </section>
+                    <section id="visualising_webmaps_more">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">For those who do not know how to code there are services out there that provide web maps.  <a href="https://cartodb.com/">CartoDB</a> is a popular service to get web maps of your data up and running quickly.</p>
+                        <p class="text-small">For the more adventurous it is possible to code your own web maps with JavaScript. <a href="http://leafletjs.com/">Leaflet</a> is a good library to start with.</p>
+                    </section>                    
                 </section>                                                 
                 <section id="visualising_webdashboards">
                     <div class="header_bar yellow">
@@ -700,6 +767,7 @@
                     <h4>Make Interactive Dashboards</h4>
                     <p class="text-small">                        
                     </p>
+                    <img class="stretch" src="pics/interactive_dashboard.png" alt="Interactive dashboard" />
                 </section>
                 <section id="sharing" data-background="#4CAF50">
                     <div class="title_container">
@@ -773,18 +841,6 @@
                         powerful tool.
                     </p>
                 </section>
-                <section id="softskills_verbal_comms">
-                    <div class="header_bar red">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Verbal Communication</h4>
-                    <p class="text-small">While information management 
-                        products can communicate the data and a message, an information
-                        manager will often find themselves in meetings and presentation.
-                        To be able to verbally communicate the data and to simplify complex ideas is a 
-                        powerful tool.
-                    </p>
-                </section>
                 <section id="softskills_listen">
                     <div class="header_bar red">
                         <div class="header_title">##</div>
@@ -800,7 +856,15 @@
                     <h4>Distill the questions</h4>
                     <p class="text-small"> 
                     </p>
-                </section>                                                 
+                </section>
+                <section id="softskills_assumptions">
+                    <div class="header_bar red">
+                        <div class="header_title">##</div>
+                    </div>
+                    <h4>Don't make assumptions about the user</h4>
+                    <p class="text-small">Humanitarian Response can be stressful and exhausting work.  Give yourself regular breaks and make sure you get enough sleep!
+                    </p>
+                </section>                                                                 
                 <section id="softskills_take_breaks">
                     <div class="header_bar red">
                         <div class="header_title">##</div>
@@ -808,15 +872,7 @@
                     <h4>Take breaks and get good sleep</h4>
                     <p class="text-small">Humanitarian Response can be stressful and exhausting work.  Give yourself regular breaks and make sure you get enough sleep!
                     </p>
-                </section>                 
-                <section id="softskills_take_breaks">
-                    <div class="header_bar red">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Take breaks and get good sleep</h4>
-                    <p class="text-small">Humanitarian Response can be stressful and exhausting work.  Give yourself regular breaks and make sure you get enough sleep!
-                    </p>
-                </section>                  
+                </section>                                  
             </div>
         </div>
         <script src="lib/js/head.min.js"></script>
