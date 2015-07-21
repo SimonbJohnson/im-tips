@@ -312,13 +312,28 @@
                             Instead of doing paper based surveys data collection can be completed using mobile devices including phones and tablets. This allows for data validation on entry ensuring the data collected is consistent in nature.
                         </p>
                         <img class="stretch" src="pics/mobile_data_collection.jpg" alt="Mobile data collection" />
-                    </section>                
-                    <section id="spreadsheets" data-background="#03A9F4">
-                        <div class="title_container">
-                            <h1 class="white">Spreadsheets</h1>
+                        <p class="text-bottom">Press down for more</p> 
+                    </section> 
+                    <section id="collecting_mobile_data_more">
+                        <div class="header_bar orange">
+                            <div class="header_title">##</div>
                         </div>
-                    </section>
+                        <p class="text-small">
+                            There are a number of tools out there that can help with mobiles data collection, some are free and some are paid for.
+                        </p>
+                        <p class="text-small">
+                            <a href="https://opendatakit.org/">Open Data Kit</a> - A free to use mobile data collection application  
+                        </p>
+                        <p class="text-small">
+                            <a href="http://home.magpi.com/">MagPi</a> - A commerical mobile data collection application
+                        </p>                                                
+                    </section>                                   
                 </section>
+                <section id="spreadsheets" data-background="#03A9F4">
+                    <div class="title_container">
+                        <h1 class="white">Spreadsheets</h1>
+                    </div>
+                </section>                
                 <section id="spreadsheets_cell">
                     <div class="header_bar blue">
                         <div class="header_title">##</div>
@@ -330,13 +345,65 @@
                         By having more than one piece of data in a
                         cell it stops the ability to filter, sum 
                         or process a component of the list in anyway.
-                    </p>
-                    <p class="text-small">
                         A way of approaching this is to duplicate the line for
                         each component of the list.
                     </p>
                     <img class="stretch" src="pics/single_cell.png" alt="Single Cell" />
                 </section>
+                <section>
+                    <section id="spreadsheets_learn_vlookups">
+                        <div class="header_bar blue">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Learn VLookups</h4>
+                        <p class="text-small">
+                            Often you will need to look up other data based on a value in your data set.  An example is you might have the names of the districts you are working in, but also want the official codes for these.  A vlookup can pull through these official codes automatically.                       
+                        </p>
+                        <img class="stretch" src="pics/vlookup.png" alt="VLookup" />
+                        <p class="text-bottom">Press down for more</p> 
+                    </section>
+                    <section id="spreadsheets_learn_vlookups_more">
+                        <div class="header_bar blue">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">
+                            Free learning material for learning vlookups                 
+                        </p>
+                        <p class="text-small">
+                            <a href="https://www.youtube.com/watch?v=-WAEzokHSJM">VLookup tutorial youtube video</a>                
+                        </p>                        
+                        <p class="text-small">
+                            <a href="http://www.excel-easy.com/functions/lookup-reference-functions.html">Excel Easy tutorial</a>                
+                        </p>                        
+                    </section>                    
+                </section>                
+                <section>
+                    <section id="spreadsheets_learn_pivotables">
+                        <div class="header_bar blue">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Learn Pivot Tables</h4>
+                        <p class="text-small">
+                            Pivot tables are a hugely powerful tool in spreadsheets. They are used for summarising, analysing and quickly manipulating data sets.                       
+                        </p>
+                        <img class="stretch" src="pics/pivottables.png" alt="Pivot Table" />
+                        <p class="text-bottom">Press down for more</p> 
+                    </section>
+                    <section id="spreadsheets_learn_pivotables_more">
+                        <div class="header_bar blue">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">
+                            Free learning material for pivot tables                    
+                        </p>
+                        <p class="text-small">
+                            <a href="https://www.youtube.com/watch?v=peNTp5fuKFg">Pivot Tables for beginners youtube video</a>                
+                        </p>                        
+                        <p class="text-small">
+                            <a href="http://www.excel-easy.com/data-analysis/pivot-tables.html">Excel Easy tutorial</a>                
+                        </p>                        
+                    </section>                    
+                </section>                
                 <section id="spreadsheets_granular">
                     <div class="header_bar blue">
                         <div class="header_title">##</div>
@@ -363,6 +430,7 @@
                         method is to repeat the cell value or use colour to 
                         indicate the range.
                     </p>
+                    <img class="stretch" src="pics/merge.png" alt="Merge cells" />
                 </section>
                 <section id="spreadsheets_datatypes">
                     <div class="header_bar blue">
@@ -378,6 +446,7 @@
                         means that data operations can be carried out over the
                         columns such as sum.
                     </p>
+                    <img class="stretch" src="pics/data_types.png" alt="Data Types" />
                 </section>
                 <section id="spreadsheets_consistent">
                     <div class="header_bar blue">
@@ -388,8 +457,9 @@
                         Consistent data naming means that when a 
                         spreadsheet is visualised or summarised that
                         all the correct instances of the data are picked
-                        up.
+                        up.  Below we have the same organisation spelt different ways and a simple filter may not pick them all up.
                     </p>
+                    <img class="stretch" src="pics/data_consistent.png" alt="Data Consistent" />
                 </section>
                 <section  id="spreadsheets_similar">
                     <div class="header_bar blue">
@@ -398,37 +468,23 @@
                     <h4>Do not place similar data on separate sheets/data sets</h4>
                     <p class="text-small">
                         By placing data on separate sheets it hinders 
-                        the process of aggregation.  Here we can see
+                        the process of aggregation. Below is one spreadsheet with one tab for each district.  It could have been put into one table with a column for district as in column A in the second image.  If a report is needed for one district a pivot table can be used to generate this.
                     </p>
-                    <p class="text-small">    
-                        It would have been better to create one data set
-                        and create the individual reports using a 
-                        pivot table.
-                    </p>
+                    <img class="stretch" src="pics/single_tab.png" alt="Single Tabs" />
                 </section>
-                <section id="Spreadsheets_colour">
+                <section id="spreadsheets_colour">
                     <div class="header_bar blue">
                         <div class="header_title">##</div>
                     </div>
                     <h4>Do not use colour to represent data</h4>
                     <p class="text-small">
-                        Here we can see a data set where colour was 
-                        used to represent how the 
                         When a machine reads the data or it is copied
                         to another sheet there is a chance that the
                         formating is lost along with the data it represents.
                         Create an extra column for the data attribute. 
-                        Colour should still be used to highlight data.         
+                        Colour could still be used to highlight data.         
                     </p>
-                </section>
-                <section id="Spreadsheets_learn_pivotables">
-                    <div class="header_bar blue">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Learn Pivot Tables</h4>
-                    <p class="text-small">
-                        Pivot tables ...
-                    </p>
+                    <img class="stretch" src="pics/colour_data.png" alt="Using colour to represent data" />
                 </section>
                 <section id="data_managing" data-background="#E91E63">
                     <div class="title_container">
@@ -442,7 +498,7 @@
                     <h4>Spot check your data</h4>
                     <p class="text-small">
                         A spot check is a quick process where you 
-                        pick 5 to 10 random bits of your data and 
+                        pick 5 to 10 random lines of your data and 
                         check them thoroughly.  It is especially 
                         important to do so with derived data.
                     </p>
@@ -450,6 +506,7 @@
                         It helps to check that your process is working
                         consistently through the whole data set.
                     </p>
+                    <img class="stretch" src="pics/spot_check.png" alt="Spot Checks" />
                 </section>
                 <section id="data_managing_check_extremes">
                     <div class="header_bar pink">
@@ -459,8 +516,8 @@
                     <p class="text-small">
                         When reviewing your data always carry out checks
                         on the extreme.  If you have someone over 200 years
-                        old in your data, something has probably gone 
-                        wrong.
+                        old in your data you can probably safely assume that
+                        something needs correcting in the process.
                     </p>
                 </section>
                 <section id="data_managing_sense_check">
@@ -480,25 +537,10 @@
                     </div>
                     <h4>Check for duplicates</h4>
                     <p class="text-small">
-                        A pivot table can quickly be used to check for duplicates.
-                        By creating a unique ID as a combination of field you want to
-                        check a pivot table can then be used to create count these
-                        unique IDs to check if they are really unique.
+                        To quickly find and remove duplicates from your data make use of the sorting function on multiple columns.  This will order duplicates rows next to each other.
                     </p>
-                </section>
-                <section id="data_managing_relationships">
-                    <div class="header_bar pink">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Check relationships</h4>
-                    <p class="text-small">
-                        If you expect certain relationships between data such
-                        as an administration code only belongs to one place this 
-                        can also be checked with pivot tables.  By dropping both fields 
-                        into the row columns it shows all the matches between the two 
-                        data sets.
-                    </p>
-                </section>                
+                    <img class="stretch" src="pics/duplicates.png" alt="Duplicates" />
+                </section>               
                 <section id="data_managing_official_codes">
                     <div class="header_bar pink">
                         <div class="header_title">##</div>
@@ -513,19 +555,50 @@
                         are used it can be hard to compare and join datasets without
                         these codes.  Many hours of time can be saved by using them.                                       
                     </p>
+                    <img class="stretch" src="pics/pcodes.png" alt="place codes example" /> 
                 </section>
-                <section id="data_managing_coordinates">
+                <section id="data_managing_relationships">
                     <div class="header_bar pink">
                         <div class="header_title">##</div>
                     </div>
-                    <h4>Get coordinates for point data</h4>
-                    <p class="text-small">If you have data that represents a 
-                        point such as a hospital or a household instead 
-                        of just naming it or giving its address you could 
-                        also collect coordinates for it.  There are many 
-                        possible ways of doing.
+                    <h4>Check relationships</h4>
+                    <p class="text-small">
+                        If you expect certain relationships between data such
+                        as an administration code only belongs to one place this 
+                        can also be checked with pivot tables.  By dropping both fields 
+                        into the row columns it shows all the matches between the two 
+                        data columns.  Here we can see 524 02 05 25 has been used twice by accident.
                     </p>
+                    <img class="stretch" src="pics/relationships.png" alt="Checking relationships example" /> 
                 </section>
+                <section>                
+                    <section id="data_managing_coordinates">
+                        <div class="header_bar pink">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Get coordinates for point data</h4>
+                        <p class="text-small">If you have data that represents a 
+                            point such as a hospital or a household instead 
+                            of just naming it or giving its address you could 
+                            also collect coordinates for it.  There are many 
+                            possible ways of doing.
+                        </p>
+                        <img class="stretch" src="pics/coordinates.png" alt="Coordinates Map" />
+                        <p class="text-bottom">Press down for more</p> 
+                    </section>
+                    <section id="data_managing_coordinates_more">
+                        <div class="header_bar pink">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">
+                            A <a href="https://en.wikipedia.org/wiki/GPS_navigation_device">GPS device</a> can be used to get coordinates points. Most smartphones now contain the technology to do this.  Mobile data collection applications can also help with the process.
+                        </p>
+                        <img class="stretch" src="pics/gps.jpeg" alt="smartphone gps" /> 
+                        <p class="text-small">
+                            Addresses can be <a href="https://en.wikipedia.org/wiki/Geocoding">geocoded</a> to get coordinates.  However is many developing countries the addresses are not well documented or non-existant.  It's better to put the coordinate data in at the point of data collection.
+                        </p>                        
+                    </section>                    
+                </section>    
                 <section>
                     <section id="data_managing_hxl">
                         <div class="header_bar pink">
@@ -565,7 +638,7 @@
                         <div class="header_title">##</div>
                     </div>
                     <h4>Remove Visual Noise</h4>
-                    <p class="text-small">By removing unnecessary visual elements it allows for easier intepretation of the data</p>
+                    <p class="text-small">By removing unnecessary visual elements it allows for easier intepretation of the data.</p>
                     <img class="stretch" src="pics/visual_noise.gif" alt="Visual Noise reduction" />
                 </section>
                 <section id="visualising_alignment">
@@ -574,7 +647,9 @@
                     </div>
                     <h4>Alignment</h4>
                     <p class="text-small">
+                        Misaligning elements can make a product look distracting and hard for the user to follow.  By aligning elements to a grid system you make the product more appealing and easier to comprehend.
                     </p>
+                    <img class="stretch" src="pics/grid.jpg" alt="Grid alignment" />
                 </section>
                 <section>               
                     <section id="visualising_icons">
@@ -594,7 +669,8 @@
                             <div class="header_title">##</div>
                         </div>
                         <p class="text-small">
-                            http://reliefweb.int/report/world/world-humanitarian-and-country-icons-2012                           
+                            <a href="http://reliefweb.int/report/world/world-humanitarian-and-country-icons-2012">An article about humanitarian icons</a>
+                                                       
                         </p> 
                     </section>                                        
                 </section>
@@ -603,40 +679,86 @@
                         <div class="header_title">##</div>
                     </div>
                     <h4>Be aware of colour connotations</h4>
-                    <p class="text-small">                        
-                    </p>
+                    <p class="text-small">Colours have different meaning attached to them. If you colour areas on a map red, some people will assume that it may indicate an area of danger, when this may have not been your intent.  It is worth being aware that different colours may have different meanings in various cultures.</p>
+                    <img class="stretch" src="pics/colour_wheel.gif" alt="Colour wheel" />
                 </section>
-                <section id="visualising_colorcon">
-                    <div class="header_bar yellow">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Choose readable colour schemes</h4>
-                    <p class="text-small">                        
-                    </p>
-                </section>                                
-                <section id="visualising_maps">
-                    <div class="header_bar yellow">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Make Maps</h4>
-                    <p class="text-small">                        
-                    </p>
+                <section>
+                    <section id="visualising_color_scheme">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Choose readable colour schemes</h4>
+                        <p class="text-small">
+                            Be careful when choosing colours, especially on maps, to make sure everyone can read them.  Your product may be printed in black and white or read by someone with colour blindness.  By choosing a simple colour scale and varying lightness can solve this problem.                      
+                        </p>
+                        <img class="stretch" src="pics/bad_colours.jpg" alt="Bad Colours" />
+                        <p class="image-text">An example of a difficult to read colour scheme</p>
+                        <p class="text-bottom">Press down for more</p> 
+                    </section>
+                    <section id="visualising_color_scheme_more">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">
+                            There are good tools out there for helping to pick a good colour scheme.                      
+                        </p>
+                        <p class="text-small">
+                            <a href="http://colorbrewer2.org/">Color Brewer</a> is a particular good tool which has options for selecting schemes that work on black and white printers and for people with colour blindness
+                        </p>                        
+                    </section>                                        
                 </section>
+                <section>                                
+                    <section id="visualising_maps">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Make Maps</h4>
+                        <p class="text-small">
+                            If your data has a geographical element it may be better to represent it as a map rather than a data table.  There are a few free and paid software and services that can do this.                       
+                        </p>
+                        <img class="stretch" src="pics/map.jpg" alt="Map" />
+                        <p class="text-bottom">Press down for more</p>                         
+                    </section>
+                    <section id="visualising_maps_more">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Make Maps</h4>
+                        <p class="text-small">
+                            <a href="http://www.qgis.org/en/site/">QGIS</a> is open source software used for creating maps.                       
+                        </p>
+                        <p class="text-small">
+                            <a href="http://www.qgistutorials.com/en/">QGIS tutorials</a> is a website that contains a lot of learning material for making maps with QGIS.
+                        </p>                        
+                    </section>
+                </section>                    
                 <section id="visualising_dashboards">
                     <div class="header_bar yellow">
                         <div class="header_title">##</div>
                     </div>
-                    <h4>Make Dashboards</h4>
-                    <p class="text-small">                        
+                    <h4>Make Infographics and Dashboards</h4>
+                    <p class="text-small">
+                        Your pivot table report may tell everything a manager or the public needs to know, however engagement of it will be low.  By making infographics and dashboards it will help to get the key figures read.                    
                     </p>
+                    <img class="stretch" src="pics/infographic.png" alt="Infographic" />
                 </section>
-                <section id="visualising_webmaps">
-                    <div class="header_bar yellow">
-                        <div class="header_title">##</div>
-                    </div>
-                    <h4>Make Web Maps</h4>
-                    <p class="text-small">                        
-                    </p>
+                <section>
+                    <section id="visualising_webmaps">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <h4>Make Web Maps</h4>
+                        <p class="text-small">Web maps can allow the user to interact with the map by zooming, panning, clicking and turning on and off layers.  This extra control means more data can be given to the user and they can customise what they are seeing for their own analysis.                       
+                        </p>
+                        <img class="stretch" src="pics/webmap.png" alt="Web map" />
+                    </section>
+                    <section id="visualising_webmaps_more">
+                        <div class="header_bar yellow">
+                            <div class="header_title">##</div>
+                        </div>
+                        <p class="text-small">For those who do not know how to code there are services out there that provide web maps.  <a href="https://cartodb.com/">CartoDB</a> is a popular service to get web maps of your data up and running quickly.</p>
+                        <p class="text-small">For the more adventurous it is possible to code your own web maps with JavaScript. <a href="http://leafletjs.com/">Leaflet</a> is a good library to start with.</p>
+                    </section>                    
                 </section>                                                 
                 <section id="visualising_webdashboards">
                     <div class="header_bar yellow">
@@ -645,6 +767,7 @@
                     <h4>Make Interactive Dashboards</h4>
                     <p class="text-small">                        
                     </p>
+                    <img class="stretch" src="pics/interactive_dashboard.png" alt="Interactive dashboard" />
                 </section>
                 <section id="sharing" data-background="#4CAF50">
                     <div class="title_container">
@@ -714,10 +837,42 @@
                     <p class="text-small">While information management 
                         products can communicate the data and a message, an information
                         manager will often find themselves in meetings and presentation.
-                        To be able to verbally communicate the ideas and data is a 
+                        To be able to verbally communicate the data and to simplify complex ideas is a 
                         powerful tool.
                     </p>
-                </section>  
+                </section>
+                <section id="softskills_listen">
+                    <div class="header_bar red">
+                        <div class="header_title">##</div>
+                    </div>
+                    <h4>Listen</h4>
+                    <p class="text-small">Listen and be patient while understanding the needs of the users of your IM products. 
+                    </p>
+                </section>
+                <section id="softskills_distill_questions">
+                    <div class="header_bar red">
+                        <div class="header_title">##</div>
+                    </div>
+                    <h4>Distill the questions</h4>
+                    <p class="text-small"> 
+                    </p>
+                </section>
+                <section id="softskills_assumptions">
+                    <div class="header_bar red">
+                        <div class="header_title">##</div>
+                    </div>
+                    <h4>Don't make assumptions about the user</h4>
+                    <p class="text-small">Humanitarian Response can be stressful and exhausting work.  Give yourself regular breaks and make sure you get enough sleep!
+                    </p>
+                </section>                                                                 
+                <section id="softskills_take_breaks">
+                    <div class="header_bar red">
+                        <div class="header_title">##</div>
+                    </div>
+                    <h4>Take breaks and get good sleep</h4>
+                    <p class="text-small">Humanitarian Response can be stressful and exhausting work.  Give yourself regular breaks and make sure you get enough sleep!
+                    </p>
+                </section>                                  
             </div>
         </div>
         <script src="lib/js/head.min.js"></script>
