@@ -362,6 +362,10 @@ body {
     background-color:#F44336;
 }
 
+.grey {
+    background-color:#757575;
+}
+
 .title_container {
     margin-top:75px !important;
 }
